@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#F6F6F6">
+
+    <EditText
+        android:id="@+id/edit_url"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:hint="请输入网址"
+        android:textSize="14sp"
+        android:background="#ffffff"
+        android:gravity="left"
+        android:padding="8dp" />
+
+
+    <Button
+        android:id="@+id/btn_https"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3CBCA3"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="12dp"
+        android:textColor="#ffffff"
+        style="@style/BtnStyle"
+        android:text="使用HTTPS开头"/>
+
+    <Button
+        android:id="@+id/btn_http"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF4040"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="12dp"
+        android:textColor="#ffffff"
+        style="@style/BtnStyle"
+        android:text="使用HTTP开头"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/BtnStyle"
+        android:text="开始跳转"
+        android:textColor="#ffffff"
+        android:background="#1EABEE"
+        android:layout_margin="36dp"/>
+
+</LinearLayout>
